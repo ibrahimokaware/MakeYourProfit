@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "382409700319",
+    "firebase_url": "https://make-your-profit.firebaseio.com",
+    "project_id": "make-your-profit",
+    "storage_bucket": "make-your-profit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382409700319:android:f4669080a867c929838a6a",
+        "android_client_info": {
+          "package_name": "com.rivierasoft.makeyourprofit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382409700319-87nc25hu2hloeep2aa9d0elk8iao83cd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB1g1hbxSxCOka277aZVkOFNOWJrmcIsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382409700319-87nc25hu2hloeep2aa9d0elk8iao83cd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

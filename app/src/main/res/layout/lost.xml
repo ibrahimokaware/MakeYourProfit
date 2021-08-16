@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAD6E2">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="حظاً أوفر"
+        android:textColor="@color/colorRed"
+        android:textSize="30sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/ic_lost"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/stateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="لديك فرصة لإكمال المستوى"
+        android:textColor="@color/colorCheck"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/newPointsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="0dp"
+        android:gravity="center"
+        android:text="شاهد الإعلان لتحصل على مكافأتك"
+        android:textColor="@color/colorRed"
+        android:textSize="24sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/try_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/help_selector"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="شاهد الإعلان"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/exitTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:padding="4dp"
+        android:background="@drawable/random_selector"
+        android:text="خروج"
+        android:textColor="@color/colorGray"
+        android:textSize="18sp" />
+
+</LinearLayout>

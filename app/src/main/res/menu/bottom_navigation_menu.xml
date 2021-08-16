@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_1"
+        android:icon="@drawable/ic_home"
+        android:title="الرئيسية" />
+    <item
+        android:id="@+id/page_2"
+        android:icon="@drawable/ic_grade"
+        android:title="النقاط"/>
+    <item
+        android:id="@+id/page_3"
+        android:icon="@drawable/ic_baseline_format_list_numbered_rtl_24"
+        android:title="الترتيب"/>
+    <item
+        android:id="@+id/page_4"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="الإعدادات"/>
+</menu>

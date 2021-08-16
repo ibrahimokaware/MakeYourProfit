@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorGray">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="دعوة صديق عبر"
+        android:textColor="@color/colorYalow"
+        android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/sm_icons_ll"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/whatsapp_iv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/ic_whatsapp"
+                android:background="@drawable/circular_selector"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageView
+                android:id="@+id/messenger_iv"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/circular_selector"
+                app:srcCompat="@drawable/ic_messenger"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageView
+                android:id="@+id/gmail_iv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/circular_selector"
+                app:srcCompat="@drawable/ic_gmail"
+                tools:ignore="VectorDrawableCompat" />
+
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/cancelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/random_selector"
+        android:text="إلغاء"
+        android:padding="4dp"
+        android:textColor="@color/colorYalow"
+        android:textSize="22sp" />
+
+</LinearLayout>
