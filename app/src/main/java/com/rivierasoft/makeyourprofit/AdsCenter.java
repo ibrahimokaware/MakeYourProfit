@@ -23,12 +23,12 @@ public class AdsCenter {
 
     public static void loadInterstitialAd(Context context) {
         mInterstitialAd = new InterstitialAd(context);
-        mInterstitialAd.setAdUnitId("ca-app-pub-4431464122007902/1640342974");
+        mInterstitialAd.setAdUnitId("");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
     }
 
     public static void loadRewardedAd(final Context context) {
-        rewardedAd = new RewardedAd(context, "ca-app-pub-4431464122007902/8118121419");
+        rewardedAd = new RewardedAd(context, "");
 
         RewardedAdLoadCallback adLoadCallback = new RewardedAdLoadCallback() {
             @Override
@@ -45,7 +45,7 @@ public class AdsCenter {
     }
 
     public static void loadRewardedAd2(Context context) {
-        rewardedAd2 = new RewardedAd(context, "ca-app-pub-4431464122007902/4178876400");
+        rewardedAd2 = new RewardedAd(context, "");
 
         RewardedAdLoadCallback adLoadCallback = new RewardedAdLoadCallback() {
             @Override
@@ -94,7 +94,7 @@ public class AdsCenter {
 
 //    public RewardedAd createAndLoadRewardedAd() {
 //        RewardedAd rewardedAd = new RewardedAd(context,
-//                "ca-app-pub-3940256099942544/5224354917");
+//                "");
 //        RewardedAdLoadCallback adLoadCallback = new RewardedAdLoadCallback() {
 //            @Override
 //            public void onRewardedAdLoaded() {
@@ -130,9 +130,9 @@ public class AdsCenter {
 //        protected void onCreate(Bundle savedInstanceState) {
 //        ...
 //            gameOverRewardedAd = createAndLoadRewardedAd(
-//                    "ca-app-pub-3940256099942544/5224354917");
+//                    "");
 //            extraCoinsRewardedAd = createAndLoadRewardedAd(
-//                    "ca-app-pub-3940256099942544/5224354917");
+//                    "");
 //        }
 //
 //        public RewardedAd createAndLoadRewardedAd(String adUnitId) {
